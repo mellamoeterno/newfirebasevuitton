@@ -1,3 +1,16 @@
+/* .
+.
+.
+.
+. */
+/* this index file is being imported into main.jsx  */
+/* and it is defining the styles for the components and customizing the look and feel of your application. */
+/* .
+.
+.
+.
+.
+. */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -6,6 +19,9 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+
+  /* :root selector defines **global styles for the document.**  In this case, 
+  it sets the font family, font weight, line height, and some color-related properties. */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,6 +39,8 @@ a:hover {
   color: #535bf2;
 }
 
+/* a selector sets the styles for all **anchor tags**, defining the font weight, color, and text decoration. */
+
 body {
   margin: 0;
   display: flex;
@@ -31,10 +49,15 @@ body {
   min-height: 100vh;
 }
 
+/* body selector sets the styles for the **body element**, defining the margin, 
+display, and the vertical alignment of child elements. */
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
+/* h1 selector sets the styles for **all h1 tags**, defining the font size and line height. */
 
 button {
   border-radius: 8px;
@@ -55,6 +78,9 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* button selector sets the styles for **all button tags**, defining the border radius, border, padding, font size, 
+font weight, background color, cursor, and some transition properties. */
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -67,3 +93,6 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* @media query applies styles based on the preferred color scheme of **the user's device.** In this case, 
+it changes the text color, background color, and link color when the user's preferred color scheme is light. */

@@ -6,12 +6,18 @@
   text-align: center;
 }
 
+/* #root: This applies styles to the root element of your app, which is typically a div element with an id of "root". 
+The styles set the maximum width to 1280 pixels, center the element using auto margins, 
+add padding of 2 rem, and align text to the center. */
+
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -28,6 +34,11 @@
   }
 }
 
+/* @keyframes logo-spin: This sets up a keyframe animation that spins an element 
+360 degrees. This animation is used on the second logo in your app (the React logo) 
+if the user has not set their computer to prefer reduced motion. */
+
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
@@ -38,6 +49,10 @@
   padding: 2em;
 }
 
+/* .card: This targets all elements with a class of "card" and adds padding of 2em. */
+
 .read-the-docs {
   color: #888;
 }
+
+/* .read-the-docs: This targets all elements with a class of "read-the-docs" and sets the color to #888. */
